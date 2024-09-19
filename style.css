@@ -93,3 +93,26 @@ button {
 .footer {
     height: 80px;
 }
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card, .box {
+    height: 150px;
+    width: 150px;
+}
+
+.box {
+    border: 2px solid blue;
+    border-radius: 6px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
