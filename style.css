@@ -26,9 +26,14 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    min-width: 300px;
+    min-width: 400px;
     background-color: gray;
     color: #F9FAF8;
+    flex-shrink: 1;
+}
+
+.awesome {
+    flex-shrink: 2;
 }
 
 h1 {
