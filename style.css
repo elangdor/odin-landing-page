@@ -7,17 +7,20 @@ body {
     width: 100vw;
     display: flex;
     flex-direction: column;    
+    justify-content: space-between;
     font-family: Roboto;
-    
 }
 
+.header {
+    background-color: #1F2937;
+}
 .top {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #1F2937;
     color: #E5E7EB;
-    padding: 0 120px;
+    padding: 0 30px;
+    
     }
 
 .img {
@@ -62,7 +65,7 @@ ul {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    background-color: #1F2937;
+    
     padding: 0 120px;
 }
 
@@ -82,15 +85,8 @@ button {
     align-items: center;
 }
 
-.header, .content, .quotes, .signup, .footer {
-   
-}
-
-.header, .content, .quotes, .signup {
-    
-}
-
 .footer {
+    display: flex;
     height: 80px;
 }
 
@@ -98,21 +94,53 @@ button {
     display: flex;
     gap: 20px;
     justify-content: center;
-}
-
-.card, .box {
-    height: 150px;
-    width: 150px;
+    align-items: center;
 }
 
 .box {
+    height: 150px;
+    width: 150px;
     border: 2px solid blue;
     border-radius: 6px;
 }
 
-.content {
+.card {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 150px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+ 
+}
+
+.signup {
+    background-color: orange;
+}
+
+.footer {
+    background-color: brown;
+}
+
+.header, .content, .quotes, .signup {
+   
 }
