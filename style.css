@@ -4,11 +4,12 @@
 
 body {
     height: 100vh;
-    width: 100vw;
+    /*width: 100vw;*/
     display: flex;
     flex-direction: column;    
     justify-content: space-between;
     font-family: Roboto;
+    margin: 0;
 }
 
 .header {
@@ -19,7 +20,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     color: #E5E7EB;
-    padding: 0 30px;
+    padding: 0px 160px;
+
     
     }
 
@@ -29,10 +31,11 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    min-width: 400px;
+    min-width: 500px;
     background-color: gray;
     color: #F9FAF8;
     flex-shrink: 1;
+
 }
 
 .awesome {
@@ -43,6 +46,7 @@ h1 {
     color: #F9FAF8;
     font-weight: 900;
     font-size: 48px;
+    margin: 0px;
 }
 
 h2 {
@@ -64,9 +68,8 @@ ul {
 .bottom {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    
-    padding: 0 120px;
+    gap: 80px;
+    padding: 45px 160px;
 }
 
 button {
@@ -85,9 +88,11 @@ button {
     align-items: center;
 }
 
-.footer {
-    display: flex;
-    height: 80px;
+h3 {
+   font-size: 36px;
+   color: #1F2937;
+   font-weight: 900;
+   
 }
 
 .card-container {
@@ -119,6 +124,9 @@ button {
     justify-content: center;
     align-items: center;
     height: 450px;
+    padding-bottom: 90px;
+    padding-left: 160px;
+    padding-right: 160px;
 }
 
 
@@ -130,6 +138,7 @@ button {
     align-items: center;
     height: 300px;
     background-color: #E5E7EB;
+    padding: 90px 240px;
  
 }
 
@@ -151,14 +160,15 @@ button {
     align-items: center;
     height: 340px;
     color: #F9FAF8;
+    padding: 90px 160px;
 }
 
 .signup-box {
     background-color: #3882F6;
     border: 2px solid #3882F6;
     border-radius: 4px;
-    width: 60%;
-    height: 100px;
+    width: 900px;
+    height: 140px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -195,5 +205,7 @@ button {
     justify-content: center;
     align-items: center;
     color: #E5E7EB;
+    height: 80px;
+    padding: 30px;
 }
 
