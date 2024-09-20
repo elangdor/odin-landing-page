@@ -135,12 +135,50 @@ button {
 
 .signup {
     background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+    color: #F9FAF8;
 }
+
+.signup-box {
+    background-color: #3882F6;
+    border: 2px solid #3882F6;
+    border-radius: 4px;
+    width: 60%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.signup-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+
+.signup-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.signup-text p {
+    margin: 0;
+}
+
+
+.signup-box button {
+    border: 1px solid white;
+}
+
 
 .footer {
     background-color: brown;
 }
 
-.header, .content, .quotes, .signup {
-   
-}
